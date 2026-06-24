@@ -27,10 +27,10 @@ M(4423) C(...
 M(9689) C(...
 M(9941) C(...
 M(11213) C(...
-M(19937) C(38535) long => 9395 \n
-M(21701) C(28229) \n
-M(23209) C(41811) \n
-M(44497) C(83391) \n
+M(19937) C(38535) long => 9395 
+M(21701) C(28229) 
+M(23209) C(41811) 
+M(44497) C(83391) 
 
 mersenne-collatz-primes
 Conjetura computacional basada en la propiedad determinista de que la trayectoria de Collatz de cualquier número de Mersenne M(k) (con k impar) alcanza un repituno en base 3 en exactamente (k-1)*2 pasos.Postulo que, siempre y cuando M(k) sea un primo de Mersenne, existe al menos un número primo intermedio a lo largo de este camino exacto de (k-1)*2 pasos.La conjetura ha sido verificada empíricamente con éxito para todos los primos de Mersenne hasta M(44497). Los casos confirmados se detallan a continuación.
