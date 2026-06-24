@@ -6,18 +6,27 @@ A computational conjecture based on the deterministic property that the Collatz 
 In cases where multiple prime numbers are discovered within the same trajectory, the largest found is listed as the representative success for that orbit.
 
 M(3) C(3) 
+
 M(5) C(6)
+
 M(7) C(15)
+
 M(13) C(18)
+
 M(17) C(..
 M(19) C(...
 M(31) C(...
 M(61) C(...
 M(89) C(....
+
 M(107) C(183)
+
 M(127) C(223)
+
 M(521) C(991)
+
 M(607) C(1151)
+
 M1279) C(...
 M(2203)	C(....
 M(2281) C(...
@@ -27,9 +36,13 @@ M(4423) C(...
 M(9689) C(...
 M(9941) C(...
 M(11213) C(...
+
 M(19937) C(38535) (9395 digits)
+
 M(21701) C(28229) (9019 digits)
+
 M(23209) C(41811) (10668 digits)
+
 M(44497) C(83391) (20738 digits)
 
 # mersenne-collatz-primes
