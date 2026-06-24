@@ -1,9 +1,12 @@
 # mersenne-collatz-primes
-Conjecture: The Collatz path of any Mersenne prime M(k) contains at least one intermediate prime before reaching the base-3 repitoun at step (k-1) *2. Empirically verified up to M(44497).
+Conjecture: The Collatz path of a Mersenne prime $M_k$ highly likely contains at least one intermediate prime before the base-3 repitoun at step $(k-1) \cdot 2$. Exhaustively verified up to $M_{44497}$.
 
 # mersenne-collatz-primes
-A computational conjecture based on the deterministic property that the Collatz trajectory of any Mersenne number M(k) (where k is odd) reaches a base-3 repitoun in exactly (k-1)*2 steps.I postulate that, provided M(k) is a Mersenne prime, there exists at least one intermediate prime number along this exact path of (k-1)*2 steps.This conjecture has been empirically verified and proven true for all Mersenne primes up to M{44497}. The successful cases are detailed below.
-In cases where multiple prime numbers are discovered within the same trajectory, the largest found is listed as the representative success for that orbit.
+A computational conjecture based on the deterministic property that the Collatz trajectory of any Mersenne number M(k) (where k is odd) reaches a base-3 repitoun in exactly (k-1)*2 steps.
+
+I postulate that, provided M(k) is a Mersenne prime, there is an extremely high probability that at least one intermediate prime number exists along this exact path of (k-1)*2 steps. Rather than a universal certainty, this structural property is presented as a strong statistical tendency, which has been exhaustively tested for all certified Mersenne primes up to M(44497) and holds true in the vast majority of cases. 
+
+In orbits where multiple prime numbers are discovered within the same trajectory, the largest found is listed as the representative success for that case. The successful orbits and their details are listed below.
 
 M(3) C(3) 
 
@@ -35,7 +38,8 @@ M(4253) c(...
 M(4423) C(...
 M(9689) C(...
 M(9941) C(...
-M(11213) C(...
+
+M(11213) fail
 
 M(19937) C(38535) (9395 digits)
 
@@ -45,9 +49,7 @@ M(23209) C(41811) (10668 digits)
 
 M(44497) C(83391) (20738 digits)
 
-# mersenne-collatz-primes
-Conjetura computacional basada en la propiedad determinista de que la trayectoria de Collatz de cualquier número de Mersenne M(k) (con k impar) alcanza un repituno en base 3 en exactamente (k-1)*2 pasos.Postulo que, siempre y cuando M(k) sea un primo de Mersenne, existe al menos un número primo intermedio a lo largo de este camino exacto de (k-1)*2 pasos.La conjetura ha sido verificada empíricamente con éxito para todos los primos de Mersenne hasta M(44497). Los casos confirmados se detallan a continuación.
-Si hubiera varios primos en la trayectoria se representa el maximo encontrado.
+
 
 
 
