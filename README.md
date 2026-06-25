@@ -1,10 +1,9 @@
 # mersenne-collatz-primes
-Conjecture: The Collatz path of a Mersenne prime $M_k$ highly likely contains at least one intermediate prime before the base-3 repitoun at step $(k-1) \cdot 2$. Verified up to $M_{44497}$.
-
+Conjecture: The Collatz path of a Mersenne prime $M_k$ highly likely contains at least one intermediate prime before the base-3 repitoun at step $(k-1) \cdot 2$. Verified up to $M_{44497}$ (with $M_{11213}$ being the only known exception).
 # mersenne-collatz-primes
 A computational conjecture based on the deterministic property that the Collatz trajectory of any Mersenne number M(k) (where k is odd) reaches a base-3 repitoun in exactly (k-1)*2 steps.
 
-I postulate that, provided M(k) is a Mersenne prime, there is an extremely high probability that at least one intermediate prime number exists along this exact path of (k-1)*2 steps. Rather than a universal certainty, this structural property is presented as a strong statistical tendency, which has been exhaustively tested for all certified Mersenne primes up to M(44497) and holds true in the vast majority of cases. 
+I postulate that, provided M(k) is a Mersenne prime, there is an extremely high probability that at least one intermediate prime number exists along this exact path of (k-1)*2 steps.  Rather than a universal certainty, this structural property is presented as a strong statistical tendency. It has been exhaustively tested for all certified Mersenne primes up to $M_{44497}$, holding true in all cases with the sole exception of $M_{11213}$, which fails to yield any intermediate primes along its trajectory.
 
 In orbits where multiple prime numbers are discovered within the same trajectory, the largest found is listed as the representative success for that case. The successful orbits and their details are listed below.
 
