@@ -25,7 +25,7 @@ int main() {
     printf("\nSimulating Collatz trajectory step by step...\n");
 
     // Exact orbit simulation matching your original search logic
-    unsigned long j = 1;
+    unsigned long j = 0;
     while (j < target_step) {
         if (mpz_even_p(numero_actual)) {
             // Even step: divide by 2 using bit shift
