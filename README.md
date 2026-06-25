@@ -8,19 +8,23 @@ I postulate that, provided M(k) is a Mersenne prime, there is an extremely high 
 
 In orbits where multiple prime numbers are discovered within the same trajectory, the largest found is listed as the representative success for that case. The successful orbits and their details are listed below.
 
-M(3) C(3) 
+M(2)/M(3) ...
 
-M(5) C(6)
+M(5) C(7) 107
 
-M(7) C(15)
+M(7) C(11) 971
 
-M(13) C(18)
+M(13) C(21) 472391
 
-M(17) C(..
-M(19) C(...
-M(31) C(...
-M(61) C(...
-M(89) C(....
+M(17) C(31) 57395627
+
+M(19) C(21) 30233087
+
+M(31) C(43) 10711401679871
+
+M(61) C(91) 193613837536515437274267647
+
+M(89) C(169) 383120485841984633235287680854945507381791
 
 M(107) C(183) (49 digits)
 
