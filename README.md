@@ -1,5 +1,5 @@
 # mersenne-collatz-primes
-Conjecture: The Collatz path of a Mersenne prime $M_k$ highly likely contains at least one intermediate prime before the base-3 repitoun at step $(k-1) \cdot 2$. Verified up to $M_{44497}$ (with $M_{11213}$ being the only known exception).
+Conjecture: The Collatz path of a Mersenne prime $M_k$ highly likely contains at least one intermediate prime before the base-3 repitoun at step $(k-1) \cdot 2$. Verified up to $M_{86243}$ (with $M_{11213}$ being the only known exception).
 # mersenne-collatz-primes
 A computational conjecture based on the deterministic property that the Collatz trajectory of any Mersenne number M(k) (where k is odd) reaches a base-3 repitoun in exactly (k-1)*2 steps.
 
@@ -58,6 +58,8 @@ M(21701) C(28228) (9019 digits)
 M(23209) C(41810) (10668 digits)
 
 M(44497) C(83390) (20738 digits)
+
+M(86243) C(169980) (40928 digits)
 
 
 
